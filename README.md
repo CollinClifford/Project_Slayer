@@ -8,21 +8,25 @@ for example:
 database:
 ```
 {
-scales: [
-  {
-    "id": 1,
-    "name": "a natural minor",
-    degress: {
-      "1": "a",
-      "2": "b",
-      "3": "c",
-      "4": "d",
-      "5": "e",
-      "6": "f",
-      "7": "g"
+scales: 
+  [
+    {
+      "id": 1,
+      "name": "a natural minor",
+      degress: {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d",
+        "5": "e",
+        "6": "f",
+        "7": "g"
       }
-   }
-]
+    },
+    {
+      "id": 2,
+      "name": "a harmonic minor",
+      ...
 ```
 frontend:
 ```
